@@ -5,7 +5,7 @@ class Home extends Component {
         return(
                 <div className="container">
                     <div className="row">
-                        <h2>Home Page</h2>
+                        <h2>Welcome to Home Page</h2>
                     </div>
                 </div>
                 );
