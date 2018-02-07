@@ -8,6 +8,7 @@ import Login from './component/user/Login';
 import Registration from './component/user/Registration';
 
 
+
         class Approute extends Component {
         render() {
         return(
@@ -25,7 +26,7 @@ import Registration from './component/user/Registration';
                 <Link className="nav-link" to="/about">About</Link>
             </li>
             <li className="nav-item active">
-                <Link className="nav-link" to="/contact">Have a Question </Link>
+                <Link className="nav-link" to="/component/page/haveaquestion">Have a Question </Link>
             </li>
         </ul>
         <ul className="navbar-nav ml-auto nav-flex-icons">
@@ -43,9 +44,10 @@ import Registration from './component/user/Registration';
 
         <Route exact path="/" component={Home}/>
         <Route path="/about" component={About}/>
-        <Route path="/contact" component={Contact}/>
+        
         <Route path="/component/user/login" component={Login}/>
                 <Route path="/component/user/registration" component={Registration}/>
+                       
 
        
 </header>
